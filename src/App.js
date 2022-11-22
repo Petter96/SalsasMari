@@ -1,10 +1,11 @@
 import React from "react";
+import Navbar from "./components/Navbar/Navbar.js";
 
-function App() {
-  return (
-    <div className="App">
-      <h1> Hola Mundo </h1>
-    </div>
+function App(){
+  return(
+    <React.Fragment>
+      <Navbar/>
+    </React.Fragment>
   );
 }
 
