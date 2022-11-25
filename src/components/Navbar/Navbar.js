@@ -10,13 +10,16 @@ function Navbar(){
     }
 
     return (
+        <div>
         <header>
-            <h3>Logo</h3>
+            <h3 href="/#">
+                <img src="./Logo.jpg" width='80'/>
+            </h3>
             <nav ref={navRef}>
-                <a href="/#">Home</a>
-                <a href="/#">My work</a>
-                <a href="/#">Blog</a>
-                <a href="/#">About</a>
+                <a href="/#">Comprar</a>
+                <a href="/#">Quienes somos</a>
+                <a href="/#">Bitácora</a>
+                <a href="/#">Acceso</a>
                 <button className="nav-btn  nav-close-btn" onClick={showNavbar}>
                     <FaTimes/>
                 </button>
@@ -25,6 +28,8 @@ function Navbar(){
                 <FaBars/>
             </button>
         </header>
+        
+        </div>
     );
 }
 

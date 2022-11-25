@@ -8,10 +8,10 @@
 }
 
 :root{
-    --mainColor: #29335C;
+    --mainColor: #bd92a8;
     --mainColorLight: #5767aa;
     --secondaryColor: #DB2B39;
-    --textColor: #eee;
+    --textColor: black;
 }
 
 header{
@@ -82,4 +82,22 @@ header .nav-btn{
         font-size: 1.5rem;
     }
 
+}
+
+.centered{
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.centered h1{
+    font-size: 80px;
+}
+
+.centered p{
+    font-size: 30px;
 }
